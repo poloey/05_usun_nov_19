@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-size: 16px;
+}
+header {
+  background: #fff;
+}
+header ul {
+  margin: 0;
+}
+header ul li {
+  display: inline-block;
+  padding: 10px;
+}
+header ul li a {
+  color: salmon;
+  text-decoration: none;
+}
+header ul li.active a {
+  color: blue;
+  text-decoration: underline;
+}
+header ul li a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+.contentbox {
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+  background: #eee;
+}
+.content {
+  width: 70%;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+}
+
+aside {
+  width: 30%;
+  box-sizing: border-box;
+  padding: 10px;
+  float: right;
+}
+aside ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+aside ul li {
+
+}
+aside ul li a {
+  color: salmon;
+  text-decoration: none;
+
+}
+aside ul li a {
+
+}
+footer {
+  background: teal;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  clear: left;
+}
+article {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 2px #333;
+}
+
+article h1 {
+
+}
+aritcle p {
+
+}
