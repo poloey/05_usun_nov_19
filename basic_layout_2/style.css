@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: salmon;
+  padding: 20px;
+}
+.contentbox {
+  background: #ddd;
+}
+.content {
+  width: 70%;
+  background: red;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+aside {
+  width: 30%;
+  background: seagreen;
+  float: left;
+}
+footer {
+  background: blue;
+  clear: both;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/*
+css for layout 2
+ */
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+
+}
+aside {
+
+}
+
+
+
+
+
+
+
+
+

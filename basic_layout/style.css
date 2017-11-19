@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: salmon;
+}
+.contentbox {
+  background: #ddd;
+}
+.content {
+  width: 70%;
+  background: red;
+  float: left;
+}
+aside {
+  width: 30%;
+  background: seagreen;
+  float: left;
+}
+footer {
+  background: blue;
+}
